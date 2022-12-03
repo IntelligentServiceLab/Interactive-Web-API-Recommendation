@@ -39,8 +39,8 @@ def parse_args():
     parser.add_argument('--lr', type=float, default=0.01,
                         help='Learning rate.')
 
-    parser.add_argument('--model_type', nargs='?', default='lightgcn',
-                        help='Specify the name of model (lightgcn).')
+    parser.add_argument('--model_type', nargs='?', default='lngcf',
+                        help='Specify the name of model (lngcf).')
     parser.add_argument('--adj_type', nargs='?', default='pre',
                         help='Specify the type of the adjacency (laplacian) matrix from {plain, norm, mean}.')
     parser.add_argument('--alg_type', nargs='?', default='lngcf',
