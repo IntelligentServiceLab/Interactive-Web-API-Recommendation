@@ -1,6 +1,3 @@
-"""
-@author: Zhongchuan Sun
-"""
 import itertools
 import numpy as np
 import sys
